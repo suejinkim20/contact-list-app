@@ -7,6 +7,17 @@ const familySchema = newSchema({
         type: String,
         required: true
     },
-    familyMembers: [Individual]
+    familyMembers: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Individual'
+    }], 
+    correspondence: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Correspondence'
+    }],
 
 })
+
+const Family = mongoose.model('Family', familySchema);
+
+module.exports = Family;

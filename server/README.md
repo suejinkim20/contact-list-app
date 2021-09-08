@@ -17,18 +17,11 @@ Age group (children, adult, parents)
 Family ID
 }
 
-Correspondence to: {
+Correspondence to/from: {
 Category/holiday ( christmas/thank you/ etc)
-to or from: sent
+to or from: sent or recieved
 Note
-Date sent
+Date sent or received
 Family ids
 }
 
-Correspondence from: {
-    Category/holiday ( christmas/thank you/ etc)
-to or from: received
-Note
-Date sent
-Family ids
-}

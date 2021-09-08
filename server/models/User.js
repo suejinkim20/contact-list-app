@@ -17,6 +17,12 @@ const userSchema = new Schema({
           type: Schema.Types.ObjectId,
           ref: 'Family'
         }
+      ],
+      correspondence: [
+          {
+              type: Schema.Types.ObjectId,
+              ref: 'Correspondence'
+          }
       ]
 });
 
